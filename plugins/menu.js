@@ -1,5 +1,5 @@
-// Script Ori By BochilGaming
-// Ditulis Ulang Oleh ImYanXiao
+// Script Ori By HENDRA LUNECK
+// Ditulis Ulang Oleh HENDRA LUBECK
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -260,12 +260,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    {
 	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".info", description: "✧ Info nya 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯  ><"},
+	    {title: `📛)ഒ Info Bot`, rowId: ".info", description: "✧ Info nya HENDRA LUBECK  ><"},
 	    {title: `💌)ഒ Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
 	{title: `🗣)ഒ Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
-	{title: `💻)ഒ Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status 赤 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯 "},
+	{title: `💻)ഒ Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status 赤 𝙔𝙩 noname "},
 	{title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯 "},
+	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 HENDRA LUBECK "},
 	]
     },{
 	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
@@ -336,11 +336,11 @@ let tek = `✧────···[ Dashboard ]···────✧
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ : 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
-┴ ▸ *ᴏᴡɴᴇʀ :𝙆𝘼𝙃𝙁𝙄-𝙓𝘿
+│ ▸ *ᴀᴜᴛʜᴏʀ : HENDRA LUBECK🇮🇩
+┴ ▸ *ᴏᴡɴᴇʀ :NONAME
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ ketik: #daftar ^ω^ dulu kak! 
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
@@ -634,9 +634,9 @@ const listMessage = {
         
         //MAIN MENU
       /*conn.sendButton(m.chat, `*${ucapan()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'speedtest'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://youtu.be/3JMCIMK3aIc",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
+    description: "https://youtu.be/3JMCIMK3aIc", 
     title: wm,
     body: 'List Menu?',
     thumbnail: thumb,
@@ -645,7 +645,7 @@ const listMessage = {
 } })*/
 
     //------------------- 2BUTTON VID
-   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
+   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ HENDRA LUBECK🇮🇩', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
     
     //------------------- Payment MENU
     /*await conn.relayMessage(m.chat,  {
